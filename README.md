@@ -101,8 +101,27 @@ Simple Multiple languages for Codeigniter
       }
     
     }
-
     
+
+### application/controllers/home.php   
+
+	<?php
+	
+	if (!defined('BASEPATH')) exit('No direct script access allowed');
+	
+	class Home extends CI_Controller {
+	
+	  public function __construct() {
+	    parent::__construct();
+	  }
+	
+	  public function index() {
+	    $this->load->view('home');
+	  }
+	
+	}
+
+
 ### application/views/home_view.php    
 
     <?php 
