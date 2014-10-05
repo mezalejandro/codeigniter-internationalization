@@ -6,10 +6,10 @@ Simple Multiple languages for Codeigniter
 
 ### application/config/autoload.php
 
-- **EN**: Care first call the library session, but will not work
-- **ES**: Cuidado llamar primero a la libreria session, sino no funcionará
+    //Care first call the library session, but will not work 
+    //Cuidado llamar primero a la libreria session, sino no funcionará
 
-		$autoload['libraries'] = array('session','set_language');
+     $autoload['libraries'] = array('session','set_language');
     
     
     
@@ -18,8 +18,8 @@ Simple Multiple languages for Codeigniter
 
     $config['country_languages'] = array(
 		'en' => 'english', 
-                'es' => 'spanish'
-	);
+    'es' => 'spanish'
+	 );
     
     
     
