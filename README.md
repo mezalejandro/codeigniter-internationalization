@@ -9,7 +9,7 @@ Simple Multiple languages for Codeigniter
 - **EN**: Care first call the library session, but will not work
 - **ES**: Cuidado llamar primero a la libreria session, sino no funcionará
 
-    $autoload['libraries'] = array('session','set_language');
+		$autoload['libraries'] = array('session','set_language');
     
     
     
