@@ -124,6 +124,7 @@ Simple Multiple languages for Codeigniter
 
 ### application/views/home_view.php    
 
-    <?php 
-    echo lang('home_hello');
+    <a href="<?php echo base_url() ?>es">Spanish</a><br/>
+    <a href="<?php echo base_url() ?>en">English</a><br/>
+    <?php echo lang('home_hello');?>
     
